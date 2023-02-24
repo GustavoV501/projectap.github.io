@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Caja de iconos version remota-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <title>CV</title>
+</head>
+
+<body>
+        <!--Header-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Finix</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home-circle nav__icon'></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link active-link">
+                            <i class='bx bx-user nav__icon'></i>Perfil
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book nav__icon'></i>Estudios
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>Habilidades
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon' ></i>Experiencia
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#certificate" class="nav__link">
+                            <i class='bx bx-award nav__icon' ></i>Certificados
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt' ></i>
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="l-main bd-container">
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--Home-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="img/photo.jpg" alt="" class="home__img">
+                            <h1 class="home__title">Finix <b>Terry</b></h1>
+                            <h3 class="home__profession">Ingeniero en sistemas</h3>
+
+
+                            <!--Boton para descargar el cv en formato pdf-->
+                            <div>
+                                <a download="" href="pdf/CV-Finix.pdf" class="home__button-movil">Descargar</a>
+                            </div>
+                        </div>
+
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map home__icon' ></i> Av. Alem #123 CABA - Argentina
+                            </span>
+
+                            <span class="home__information">
+                                <i class='bx bx-envelope home__icon' ></i> terry.finix@example.com
+
+                            </span>
+
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon' ></i> (463) 840-9384
+
+                            </span>
+                        </div>
+                    </div>
+                    <!--Botón para generar la descarga del cv en formato pdf-->
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button" ></i>
+                </section>
+
+                <!--Redes sociales-->
+                <section class="social section">
+                    <h2 class="section-title">Redes sociales</h2>
+
+                    <div class="social__container bd-grid">
+                        <a href="https://ar.linkedin.com" target="_blank" class="social__link">
+                            <i class='bx bxl-linkedin-square social__icon'></i> @finixterry
+                        </a>
+
+                        <a href="https://es-la.facebook.com" target="_blank" class="social__link">
+                            <i class='bx bxl-facebook social__icon' ></i> Terry Finix
+                        </a>
+
+                    </div>
+                </section>
+                <!--Perfil-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Perfil</h2>
+
+                    <p class="profile__description">Soy una persona, responsable con su trabajo durante las horas de trabajo. Finalice diversos estudios técnicos y superiores en grandes universidades. Cuento con varios años de experiencia y logros en el campo laboral.
+                    </p>
+                </section>
+                <!--Educación-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Educacion</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Ingenieria en sistemas de información</h3>
+                                <span class="education__studies">Universidad</span>
+                                <span class="education__year">2014 - 2019</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Analista de sistemas</h3>
+                                <span class="education__studies">Instituto terciario</span>
+                                <span class="education__year">2019 - 2022</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <!--<span class="education__line"></span>-->
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Master en data</h3>
+                                <span class="education__studies">Universidad</span>
+                                <span class="education__year">2020 - 2021</span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </section>
+
+
+
+                <!--Habilidades-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Habilidades</h2>
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> HTML
+                            </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> CSS
+                            </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> GIT
+                            </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> JavaScript
+                            </li>
+                        </ul>
+
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> React
+                            </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Firebase
+                            </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Python
+                            </li>
+
+                        </ul>
+                    </div>
+                </section>
+
+
+            </div>
+
+            <div class="resume__right">
+                <!--Experiencia-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experiencia</h2>
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Analisis de datos</h3>
+                                <span class="experience__company">Desde 2018 a 2020 | Capcom</span>
+                                <p class="experience__description">Trabaje en esta empresa dedicando la mejor responsabilidad en el área asignado, entregando los mejores resultados para la empresa y mejorando la productividad.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!--<span class="experience__line"></span>-->
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Ingeniero de software</h3>
+                                <span class="experience__company">Desde 2021 a 2023 | Capcom</span>
+                                <p class="experience__description">Trabaje en esta empresa dedicando la mejor responsabilidad en el área asignado, entregando los mejores resultados para la empresa y mejorando la productividad.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--Certificados-->
+                <section class="certificate section" id="certificate">
+                    <h2 class="section-title">Certificados</h2>
+                    <div class="certificate__container bd-grid">
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Certificado Scrum (2016)</h3>
+                            <p class="certificate__description">Por cumplir con las expectativas de liderar el equipo para trabajar las tareas especificadas en el campo laboral.</p>
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Certificado master scrum (2019)</h3>
+                            <p class="certificate__description">Por cumplir con las expectativas de liderar el equipo para trabajar las tareas especificadas en el campo laboral.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!--Idiomas-->
+                <section class="languages section">
+                    <h2 class="section-title">Idiomas</h2>
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Ingles
+                            </li>
+
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Frances
+                            </li>
+
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Italiano
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!--Scroll top-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+    </a>
+
+    <script src="js/html2pdf.bundle.min.js"></script>
+    
+
+    <!--Conexion con main.js-->
+    <script src="js/main.js"></script>
+</body>
+</html>
